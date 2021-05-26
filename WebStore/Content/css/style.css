@@ -41,14 +41,14 @@
 -------------------------------------------------------------*/
 @font-face {
 	font-family: "FontAwesome";
-	src: url('../../fonts/FontAwesome.otf');
+	src: url('../../fonts/fontawesome-webfont.ttf');
 }
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	margin: 0px;
+	margin: 0;
 	overflow-x: hidden;
-	padding: 0px;
+	padding: 0;
 }
 
 h1,
@@ -65,24 +65,24 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 ul,
 ol {
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 a,
 a:hover,
 a:focus {
-	-webkit-text-decoration: none;
-	-moz-text-decoration: none;
-	-ms-text-decoration: none;
-	-o-text-decoration: none;
+	/*-webkit-text-decoration: none;*/
+	/*-moz-text-decoration: none;*/
+	/*-ms-text-decoration: none;*/
+	/*-o-text-decoration: none;*/
 	text-decoration: none;
 	transition: ease all 0.5s;
 }
@@ -105,7 +105,7 @@ textarea {
 -------------------------------------------------------------*/
 
 header .navbar {
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 #header.top-head {
@@ -115,7 +115,7 @@ header .navbar {
 header .navbar-default {
 	background-color: transparent;
 	border: none;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	position: relative;
 	-webkit-box-shadow: 0 15px 19px -19px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 15px 19px -19px rgba(0, 0, 0, 0.1);
@@ -140,7 +140,7 @@ header .navbar-default .navbar-header {
 
 .web-sh.navbar-form {
 	padding: 16px 15px;
-	margin: 0px;
+	margin: 0;
 	width: 72%;
 	border: none;
 }
@@ -153,7 +153,6 @@ header .navbar-default .navbar-header {
 
 .web-sh.navbar-form input {
 	width: 100%;
-	background: none;
 	border: none;
 	box-shadow: none;
 	background-image: url("../images/search-icon.png");
@@ -229,7 +228,7 @@ header .navbar-default .navbar-header {
 
 .iq-search .search-btn::before {
 	content: "\f002";
-	font-family: "FontAwesome";
+	font-family: "FontAwesome", serif;
 	font-size: 14px;
 	font-weight: normal;
 	left: 0;
@@ -267,8 +266,8 @@ header .navbar-default .navbar-header {
 }
 
 .top-nav ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .top-nav ul li {
@@ -302,12 +301,12 @@ header .navbar-default .navbar-header {
 }
 
 .login-signup {
-	padding: 13px 0px;
+	padding: 13px 0;
 }
 
 .login-signup ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -349,7 +348,7 @@ header .navbar-default .navbar-header {
 .help-r {}
 
 .help-box {
-	margin: 10px 0px;
+	margin: 10px 0;
 	border-right: 1px solid #dcdcdc;
 }
 
@@ -358,10 +357,9 @@ header .navbar-default .navbar-header {
 }
 
 .help-box ul li {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
 	display: inline-block;
-	padding-left: 15px;
+	padding: 0 0 0 15px;
 }
 
 .help-box ul li a {
@@ -393,7 +391,7 @@ header .navbar-default .navbar-header {
 	z-index: 999;
 	background-color: #ffffff;
 	transition: 0.5s;
-	padding: 0px;
+	padding: 0;
 	box-shadow: 0 15px 19px -19px rgba(0, 0, 0, 0.1);
 }
 
@@ -402,14 +400,14 @@ header .navbar-default .navbar-header {
 }
 
 .nav-box {
-	margin: 10px 0px;
+	margin: 10px 0;
 	border-right: 1px solid #dcdcdc;
 	border-left: 1px solid #dcdcdc;
-	padding: 0px 15px;
+	padding: 0 15px;
 }
 
 .nav-box ul {
-	padding: 12px 0px;
+	padding: 12px 0;
 }
 
 .nav-box ul li {
@@ -418,11 +416,10 @@ header .navbar-default .navbar-header {
 
 .nav-box ul li a {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
 	color: #636363;
 	text-decoration: none;
 	font-size: 14px;
-	padding: 0px 10px;
+	padding: 0 10px;
 	font-weight: 400;
 }
 
@@ -447,7 +444,7 @@ header .navbar-default .navbar-header {
 	max-width: 780px;
 	margin: 0 auto;
 	width: 100%;
-	padding: 92px 0px 75px 0px;
+	padding: 92px 0 75px 0;
 }
 
 .find-box h1 {
@@ -511,7 +508,7 @@ header .navbar-default .navbar-header {
 	background-color: transparent;
 	border: none;
 	border-bottom: 1px solid #fff;
-	border-radius: 0px;
+	border-radius: 0;
 	color: #fff;
 	font-size: 22px;
 	font-weight: 300;
@@ -542,13 +539,13 @@ header .navbar-default .navbar-header {
 
 .form-sh .dropup .dropdown-menu,
 .form-sh .navbar-fixed-bottom .dropdown .dropdown-menu {
-	margin: 0px;
-	border-radius: 0px;
+	margin: 0;
+	border-radius: 0;
 }
 
 .form-sh .dropdown-menu {
-	margin: 0px;
-	border-radius: 0px;
+	margin: 0;
+	border-radius: 0;
 }
 
 .form-sh a.btn {
@@ -570,7 +567,7 @@ header .navbar-default .navbar-header {
 
 .form-sh .bootstrap-select.btn-group .dropdown-menu {
 	background: #09294c;
-	padding: 0px;
+	padding: 0;
 }
 
 .form-sh .bootstrap-select.btn-group .dropdown-menu li a {
@@ -585,7 +582,7 @@ header .navbar-default .navbar-header {
 
 .product-sh p {
 	clear: both;
-	margin: 0px;
+	margin: 0;
 	text-align: center;
 	padding-top: 30px;
 	color: #ddd;
@@ -619,7 +616,7 @@ header .navbar-default .navbar-header {
 	font-size: 25px;
 	font-weight: 500;
 	transition: all 0.3s ease 0s;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 }
 
 .box-img:hover {
@@ -635,7 +632,7 @@ header .navbar-default .navbar-header {
 }
 .food {
 	position: absolute;
-	right: 0px;
+	right: 0;
 	top: 40%;
 }
 
@@ -709,7 +706,7 @@ header .navbar-default .navbar-header {
 
 .products_exciting_box {
 	background: #f4f9fd;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .exciting_box .icon-small {
@@ -732,7 +729,7 @@ header .navbar-default .navbar-header {
 .exciting_box p {
 	font-size: 16px;
 	color: #455a65;
-	margin: 0px;
+	margin: 0;
 	padding-bottom: 45px;
 	line-height: 30px;
 }
@@ -745,7 +742,7 @@ header .navbar-default .navbar-header {
 	height: 100%;
 	position: absolute;
 	right: -15px;
-	top: 0px;
+	top: 0;
 }
 
 .f_pd h4 {
@@ -771,11 +768,11 @@ header .navbar-default .navbar-header {
 /*-- Start Free --*/
 
 .start-free-box {
-	padding: 60px 0px;
+	padding: 60px 0;
 }
 
 .main-start-box {
-	padding: 0px 60px;
+	padding: 0 60px;
 }
 
 .free-box-a {
@@ -793,7 +790,7 @@ header .navbar-default .navbar-header {
 }
 
 .right-a-f p {
-	margin: 0px;
+	margin: 0;
 	color: #607087;
 	font-size: 16px;
 	padding-right: 85px;
@@ -801,13 +798,13 @@ header .navbar-default .navbar-header {
 }
 
 .buyer-box {
-	padding: 60px 0px 40px 0px;
+	padding: 60px 0 40px 0;
 	background: rgba(255, 255, 255, 1);
 	margin-top: 65px;
 }
 
 .supplier {
-	padding: 60px 0px 40px 0px;
+	padding: 60px 0 40px 0;
 	background: rgba(255, 255, 255, 1);
 	margin-top: 65px;
 }
@@ -847,7 +844,7 @@ header .navbar-default .navbar-header {
 }
 
 .right-buyer p {
-	margin: 0px;
+	margin: 0;
 	font-weight: 300;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -896,7 +893,7 @@ header .navbar-default .navbar-header {
 }
 
 .left-supplier p {
-	margin: 0px;
+	margin: 0;
 	font-weight: 300;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -922,7 +919,7 @@ header .navbar-default .navbar-header {
 -------------------------------------------------------------*/
 
 .products {
-	padding: 40px 0px 60px 0px;
+	padding: 40px 0 60px 0;
 	background: #fff;
 	position: relative;
 }
@@ -958,7 +955,7 @@ header .navbar-default .navbar-header {
 	border: 1px solid #e7e7e7;
 	background: #fff;
 	padding: 12px;
-	margin: 0px 15px;
+	margin: 0 15px;
 }
 
 .prod-i img {
@@ -970,7 +967,7 @@ header .navbar-default .navbar-header {
 }
 
 .dit-t {
-	padding: 7px 0px;
+	padding: 7px 0;
 }
 
 .dit-t h4 {
@@ -987,7 +984,7 @@ header .navbar-default .navbar-header {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	color: #acacac;
-	margin: 0px;
+	margin: 0;
 }
 
 .dit-t p span {
@@ -1051,7 +1048,7 @@ header .navbar-default .navbar-header {
 
 .main-footer {
 	background-image: url('../images/footer_bg.png');
-	padding: 55px 0px 0px 0px;
+	padding: 55px 0 0 0;
 	background-size: cover;
 	background-position: center center;
 }
@@ -1080,7 +1077,6 @@ header .navbar-default .navbar-header {
 	background: #fff;
 	color: #646464;
 	min-height: 51px;
-	border-radius: 2px;
 	padding-left: 30px;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
@@ -1093,7 +1089,6 @@ header .navbar-default .navbar-header {
 	background: #1d99ff;
 	color: #fff;
 	padding: 11px 35px 11px;
-	border-radius: 2px;
 	font-weight: 600;
 	font-size: 15px;
 	position: absolute;
@@ -1113,7 +1108,7 @@ header .navbar-default .navbar-header {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-	padding: 4px 0px;
+	padding: 4px 0;
 }
 
 .help-box-f p {
@@ -1121,7 +1116,7 @@ header .navbar-default .navbar-header {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	font-weight: 300;
-	margin: 0px;
+	margin: 0;
 	padding-top: 3px;
 }
 
@@ -1145,8 +1140,8 @@ header .navbar-default .navbar-header {
 }
 
 .left-f-box ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .left-f-box ul li {
@@ -1178,8 +1173,8 @@ header .navbar-default .navbar-header {
 }
 
 .right-f-box ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .right-f-box ul li {
@@ -1223,15 +1218,15 @@ header .navbar-default .navbar-header {
 
 .copyright .socials {
 	float: right;
-	padding: 15px 0px;
+	padding: 15px 0;
 }
 
 .copyright .socials {
-	margin: 0px;
+	margin: 0;
 }
 
 .copyright .socials li {
-	margin: 0px;
+	margin: 0;
 }
 
 .copyright .socials li a {
@@ -1242,7 +1237,7 @@ header .navbar-default .navbar-header {
 .right-flag {
 	display: inline-block;
 	float: right;
-	padding: 8px 0px;
+	padding: 8px 0;
 	margin-right: 25px;
 }
 
@@ -1262,7 +1257,7 @@ header .navbar-default .navbar-header {
 /*-- How it Works --*/
 
 .section-how-it-works {
-	padding: 70px 0px;
+	padding: 70px 0;
 }
 
 .left-works-box {}
@@ -1283,7 +1278,7 @@ header .navbar-default .navbar-header {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	margin: 0px;
+	margin: 0;
 	color: #333335;
 	padding-right: 80px;
 	line-height: 37px;
@@ -1404,7 +1399,7 @@ header .navbar-default .navbar-header {
 
 .works-systems {
 	background: #fff;
-	padding: 70px 0px;
+	padding: 70px 0;
 }
 
 .sys-box-left-a {}
@@ -1433,7 +1428,7 @@ header .navbar-default .navbar-header {
 }
 
 .sys-box-left-b {
-	margin: 50px 0px;
+	margin: 50px 0;
 }
 
 .sys-box-right-b {}
@@ -1479,7 +1474,7 @@ header .navbar-default .navbar-header {
 }
 
 .sys-box-right-c {
-	padding: 50px 0px;
+	padding: 50px 0;
 }
 
 .section-safety {
@@ -1534,7 +1529,7 @@ header .navbar-default .navbar-header {
 
 .faq-box {
 	background: #f4f9fd;
-	padding: 65px 0px;
+	padding: 65px 0;
 }
 
 .faq-main-box {}
@@ -1553,7 +1548,7 @@ header .navbar-default .navbar-header {
 	position: relative;
 	display: block;
 	text-decoration: none;
-	padding: 35px 0px;
+	padding: 35px 0;
 }
 
 .panel-title>a:before {
@@ -1586,11 +1581,11 @@ header .navbar-default .navbar-header {
 
 .faq-main-box .panel-group .panel-default>.panel-heading {
 	background-color: transparent;
-	padding: 0px;
+	padding: 0;
 }
 
 .faq-main-box .panel-group .panel-heading {
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 
 .faq-main-box .panel-group .panel {
@@ -1598,7 +1593,7 @@ header .navbar-default .navbar-header {
 }
 
 .faq-main-box .panel-group .panel-default .panel-body {
-	padding: 15px 0px;
+	padding: 15px 0;
 }
 
 .lug .modal-header {
@@ -1659,7 +1654,7 @@ header .navbar-default .navbar-header {
 	color: #fff;
 	font-size: 49px;
 	font-weight: 400;
-	line-height: 59.92px;
+	line-height: 60px;
 	margin-bottom: 60px;
 	margin-top: 125px;
 }
@@ -1781,7 +1776,6 @@ header .navbar-default .navbar-header {
 }
 
 .form-inline {
-	margin-top: 3px;
 	background: #FFF;
 	padding: 7px;
 	border: 1px solid #e7e7e7;
@@ -1796,16 +1790,15 @@ header .navbar-default .navbar-header {
 .form-inline input {
 	border: none;
 	width: 100%;
-	padding: 7px 15px;
-	padding-right: 128px;
+	padding: 7px 128px 7px 15px;
 	font-size: 16px;
 	color: #646464;
 }
 
 .form-inline .btn.btn-primary {
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: 0;
+	top: 0;
 	background: #1d99ff;
 	border: none;
 	font-weight: 700;
@@ -1907,7 +1900,7 @@ header .navbar-default .navbar-header {
 
 .terms-title .breadcrumb {
 	background-color: transparent;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .terms-title .breadcrumb li a {
@@ -1920,12 +1913,12 @@ header .navbar-default .navbar-header {
 
 .terms-title .breadcrumb>li+li::before {
 	content: "\f101";
-	font-family: 'FontAwesome';
+	font-family: 'FontAwesome', serif;
 	font-size: 12px;
 }
 
 .terms-box {
-	padding: 35px 0px 0px 0px;
+	padding: 35px 0 0 0;
 }
 
 .terms-box h2 {
@@ -1940,7 +1933,7 @@ header .navbar-default .navbar-header {
 	color: #343436;
 	padding-bottom: 20px;
 	font-weight: 400;
-	margin: 0px;
+	margin: 0;
 }
 
 .terms-box h3 {
@@ -1968,16 +1961,16 @@ header .navbar-default .navbar-header {
 }
 
 .cooming-logo {
-	padding: 9px 0px;
+	padding: 9px 0;
 }
 
 .top-soon {
-	padding: 50px 0px 70px 0px;
+	padding: 50px 0 70px 0;
 }
 
 .top-soon .right-flag {
-	padding: 0px 0px;
-	margin-right: 0px;
+	padding: 0 0;
+	margin-right: 0;
 }
 
 .top-soon .right-flag li a {
@@ -1990,10 +1983,10 @@ header .navbar-default .navbar-header {
 	color: #fff;
 	font-size: 49px;
 	font-weight: 400;
-	line-height: 59.92px;
-	margin-bottom: 0px;
+	line-height: 60px;
+	margin-bottom: 0;
 	padding-bottom: 55px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .expand p.lead {
@@ -2019,14 +2012,13 @@ header .navbar-default .navbar-header {
 	width: 100%;
 	min-height: 50px;
 	border-radius: 2px;
-	padding: 15px 20px;
-	padding-right: 80px;
+	padding: 15px 80px 15px 20px;
 }
 
 .get-form button {
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: 0;
+	top: 0;
 	background: #1d99ff;
 	border: none;
 	font-weight: 700;
@@ -2061,13 +2053,13 @@ header .navbar-default .navbar-header {
 	color: #fff;
 	line-height: 34px;
 	padding-bottom: 30px;
-	margin: 0px;
+	margin: 0;
 	font-weight: 400;
 }
 
 .bot-box {
 	border-top: 1px solid #1d3b5c;
-	padding: 38px 0px 68px 0px;
+	padding: 38px 0 68px 0;
 }
 
 .bot-box p {
@@ -2089,8 +2081,7 @@ header .navbar-default .navbar-header {
 	color: #333333;
 	font-size: 31px;
 	font-weight: 400;
-	padding: 20px 0px;
-	padding-left: 15px;
+	padding: 20px 0 20px 15px;
 }
 
 .furniture-left {}
@@ -2135,8 +2126,8 @@ html .ui-button.ui-state-disabled:active {
 
 .by-box .ui-widget.ui-widget-content {
 	background: #ffffff;
-	-webkit-box-shadow: 0 0px 8px 3px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0px 8px 3px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
 	border: none;
 	border-radius: 25px;
 }
@@ -2149,8 +2140,8 @@ html .ui-button.ui-state-disabled:active {
 
 .by-box p {
 	color: #7a7a7b;
-	padding: 5px 0px;
-	margin: 0px;
+	padding: 5px 0;
+	margin: 0;
 }
 
 .by-box p input {
@@ -2208,7 +2199,6 @@ html .ui-button.ui-state-disabled:active {
 	padding-left: 26px;
 	line-height: 28px;
 	font-size: 13px;
-	font-weight: normal;
 	position: relative;
 	font-weight: 500;
 	margin: 5px 10px;
@@ -2219,7 +2209,7 @@ html .ui-button.ui-state-disabled:active {
 	width: 18px;
 	background-color: transparent;
 	border: 1px solid #999999;
-	top: 0px;
+	top: 0;
 	z-index: 0;
 }
 
@@ -2234,7 +2224,7 @@ html .ui-button.ui-state-disabled:active {
 
 [type="checkbox"].filled-in:checked+label:before {
 	top: 0;
-	left: 0px;
+	left: 0;
 	width: 8px;
 	height: 12px;
 }
@@ -2376,7 +2366,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .left-list-f .panel-group .panel+.panel {
-	margin: 0px;
+	margin: 0;
 }
 
 .left-list-f .panel-title {
@@ -2384,12 +2374,12 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .right-list-f {
-	padding: 0px;
+	padding: 0;
 }
 
 .right-list-f ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .right-list-f ul li {
@@ -2411,7 +2401,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .furniture-middle {
-	padding: 12px 0px;
+	padding: 12px 0;
 }
 
 .big-dit-b {
@@ -2458,17 +2448,17 @@ html .ui-button.ui-state-disabled:active {
 
 .prod-btn p {
 	display: inline-block;
-	margin-right: 0px;
-	padding-bottom: 0px;
+	margin-right: 0;
+	padding-bottom: 0;
 }
 
 .big-dit-b .col-md-6 {
-	padding: 0px;
+	padding: 0;
 }
 
 .tight-btn-b {
 	width: 100%;
-	padding: 12px 0px;
+	padding: 12px 0;
 }
 
 .tight-btn-b a {
@@ -2493,7 +2483,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .like-list {
-	padding: 12px 0px;
+	padding: 12px 0;
 	float: right;
 }
 
@@ -2547,7 +2537,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .cat-pd {
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .small-box-c .prod-btn a {
@@ -2638,13 +2628,13 @@ html .ui-button.ui-state-disabled:active {
 
 .loding-box {
 	clear: both;
-	padding: 25px 0px;
+	padding: 25px 0;
 	text-align: center;
 }
 
 .loding-box a {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	display: inline-block;
 }
 
@@ -2684,8 +2674,8 @@ html .ui-button.ui-state-disabled:active {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000', GradientType=0);
 	/* IE6-9 */
 	height: 180px;
-	bottom: 0px;
-	left: 0px;
+	bottom: 0;
+	left: 0;
 	width: 100%;
 	opacity: 0.5;
 }
@@ -2693,7 +2683,7 @@ html .ui-button.ui-state-disabled:active {
 .dit-p {
 	width: 100%;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 }
 
 .profile-left-b {
@@ -2702,14 +2692,14 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .profile-left-b ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .profile-left-b ul li {
 	display: inline-block;
 	border-right: 1px solid #fff;
-	padding: 0px 5px;
+	padding: 0 5px;
 }
 
 .profile-left-b ul li a {
@@ -2759,7 +2749,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .pr {
-	padding-right: 0px;
+	padding-right: 0;
 }
 
 .left-profile-box-m h3 {
@@ -2778,8 +2768,8 @@ html .ui-button.ui-state-disabled:active {
 	background: #27cb98;
 	border-radius: 50%;
 	margin: 9px 5px;
-	-webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .check-box::before {
@@ -2802,7 +2792,7 @@ html .ui-button.ui-state-disabled:active {
 .left-profile-box-m p {
 	font-size: 13px;
 	color: #979797;
-	margin: 0px;
+	margin: 0;
 	padding-bottom: 17px;
 	display: inline-block;
 }
@@ -2838,13 +2828,13 @@ html .ui-button.ui-state-disabled:active {
 
 .profile-pro-right .panel-default {
 	background-color: transparent;
-	margin: 0px;
+	margin: 0;
 }
 
 .profile-pro-right .panel-default>.panel-heading {
 	background-color: transparent;
 	border: none;
-	padding: 0px;
+	padding: 0;
 }
 
 .profile-pro-right .panel-default>.panel-heading {
@@ -2863,9 +2853,9 @@ html .ui-button.ui-state-disabled:active {
 	color: #353334;
 	border: none;
 	border-bottom: 2px solid transparent;
-	margin: 0px;
-	border-radius: 0px;
-	padding: 10px 0px;
+	margin: 0;
+	border-radius: 0;
+	padding: 10px 0;
 }
 
 .profile-pro-right .nav-tabs>li>a span {
@@ -2873,8 +2863,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .profile-pro-right .nav-tabs>li {
-	margin: 0px;
-	margin: 0px 10px;
+	margin: 0 10px;
 }
 
 .profile-pro-right .nav-tabs>li.active>a,
@@ -2962,7 +2951,7 @@ html .ui-button.ui-state-disabled:active {
 	text-align: left;
 	font-size: 14px;
 	line-height: 27px;
-	padding: 0px;
+	padding: 0;
 	font-weight: 300;
 }
 
@@ -3043,7 +3032,7 @@ html .ui-button.ui-state-disabled:active {
 /*-- Product Page --*/
 
 .product-page {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 }
 
 .product-page-main {
@@ -3051,7 +3040,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .prod-page-title {
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .prod-page-title h2 {
@@ -3062,7 +3051,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .prod-page-title p {
-	margin: 0px;
+	margin: 0;
 	font-size: 13px;
 	color: #ababab;
 }
@@ -3072,7 +3061,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .prod-page {
-	margin-left: 0px;
+	margin-left: 0;
 }
 
 .prod-page a {
@@ -3190,18 +3179,15 @@ html .ui-button.ui-state-disabled:active {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	color: #acacac;
-	margin: 0px;
+	margin: 0;
 }
 
 .right-dit-p .like-list {
-	padding: 2px 0px;
+	padding: 2px 0;
 }
 
 .description-box {
-	padding-top: 22px;
-	padding-left: 11px;
-	padding-right: 11px;
-	padding-bottom: 10px;
+	padding: 22px 11px 10px;
 	background: #fff;
 }
 
@@ -3212,7 +3198,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .description-box p {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	font-size: 14px;
 	color: #626262;
 	line-height: 24px;
@@ -3225,7 +3211,7 @@ html .ui-button.ui-state-disabled:active {
 .description-box h5 {
 	font-size: 13px;
 	font-weight: 700;
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	line-height: 34px;
 	color: #585858;
 	border-right: 1px solid #eeeeee;
@@ -3236,8 +3222,8 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .spe-a ul {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .spe-a ul li p {
@@ -3249,11 +3235,11 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .spe-a ul li .col-md-4 {
-	padding-left: 0px;
+	padding-left: 0;
 }
 
 .similar-box {
-	padding: 40px 0px;
+	padding: 40px 0;
 }
 
 .similar-box h2 {
@@ -3281,7 +3267,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .price-box-right p {
-	margin: 0px;
+	margin: 0;
 	padding-bottom: 6px;
 	font-size: 12px;
 }
@@ -3342,7 +3328,7 @@ html .ui-button.ui-state-disabled:active {
 	font-size: 15px;
 	font-weight: 700;
 	border: 1px solid #01b888;
-	padding: 12px 0px;
+	padding: 12px 0;
 	display: block;
 	margin-top: 18px;
 	border-radius: 3px;
@@ -3366,8 +3352,8 @@ html .ui-button.ui-state-disabled:active {
 
 .price-box-right ul li p {
 	float: left;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	color: #333333;
 }
 
