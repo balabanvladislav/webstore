@@ -39,7 +39,10 @@
 /*------------------------------------------------------------- 
 	2. BASE CSS 
 -------------------------------------------------------------*/
-
+@font-face {
+	font-family: "FontAwesome";
+	src: url('../../fonts/FontAwesome.otf');
+}
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
@@ -173,7 +176,7 @@ header .navbar-default .navbar-header {
 
 .web-sh.navbar-form input::-moz-placeholder {
 	/* Firefox 19+ */
-	color #474747;
+	color: #474747;
 	opacity: 1;
 }
 
@@ -274,7 +277,6 @@ header .navbar-default .navbar-header {
 
 .top-nav ul li a {
 	color: #fff;
-	font-family: ;
 	font-size: 14px;
 	font-weight: 400;
 }
