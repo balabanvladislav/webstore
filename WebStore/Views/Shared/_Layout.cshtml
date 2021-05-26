@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>WebStore</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--enable mobile device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @Styles.Render("~/Content/cssI")
+</head>
+<body>
+
+@Html.Partial("_Header")
+@RenderBody();
+@Html.Partial("_Footer")
+
+
+@RenderSection("scripts", required: false)
+
+<!--main js-->
+@Scripts.Render("~/bundles/jquery")
+
+<!--bootstrap js-->
+@Scripts.Render("~/bundles/bootstrapI")
+<!--custom js-->
+@Scripts.Render("~/bundles/customI")
+</body>
+</html>
