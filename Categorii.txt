@@ -1,0 +1,8 @@
+1. Vehicule
+2. Electronice si electrocasnice
+3. Imobiliare 
+4. Casa si gradina
+5. Articole vestimentare
+6. Sport, timp liber, arta
+7. Animale de companie
+8. Produse pentru copii
