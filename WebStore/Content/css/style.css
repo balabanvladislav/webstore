@@ -618,6 +618,11 @@ header .navbar-default .navbar-header {
 	transition: all 0.3s ease 0s;
 	letter-spacing: 0;
 }
+.box-img img{
+	max-height: 60%;
+	max-width: 90%;
+	margin: auto;
+}
 
 .box-img:hover {
 	cursor: pointer;
@@ -2531,12 +2536,14 @@ html .ui-button.ui-state-disabled:active {
 	padding: 12px;
 }
 
-.small-box-c :hover{
+.small-box-c:hover{
 	cursor: pointer;
-	transform: scale(1.1);
-	background: #007dea;
-	-webkit-box-shadow: 0 60px 100px -5px rgba(0, 0, 0, 0.1);
+	/*transform: scale(1.1);*/
+/*	background: #007dea;*/
+	box-shadow: 10px 10px 5px -3px rgba(25,64,255, 0.3);
 }
+
+
 .small-img-b img {
 	width: 100%;
 }
