@@ -192,7 +192,10 @@
     <Content Include="Content\images\product\2.png" />
     <Content Include="Content\images\product\4.png" />
     <Content Include="Content\images\product\5.png" />
-    <Content Include="Content\images\product\Vehicles.jpg" />
+    <Content Include="Content\images\product\Electronics.png" />
+    <Content Include="Content\images\product\House.png" />
+    <Content Include="Content\images\product\Imobiliare.png" />
+    <Content Include="Content\images\product\Vehicles.png" />
     <Content Include="Content\images\report-icon.jpg" />
     <Content Include="Content\images\search-icon.png" />
     <Content Include="Content\images\supplier-pc-img.png" />
