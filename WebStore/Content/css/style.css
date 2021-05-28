@@ -633,7 +633,7 @@ header .navbar-default .navbar-header {
 .box2-img:hover {
 	cursor: pointer;
 	transform: scale(1.1);
-	background: #007dea;
+	box-shadow: 10px 10px 5px -3px rgba(0,125,234, 0.3);
 }
 .food {
 	position: absolute;
@@ -2540,7 +2540,7 @@ html .ui-button.ui-state-disabled:active {
 	cursor: pointer;
 	/*transform: scale(1.1);*/
 /*	background: #007dea;*/
-	box-shadow: 10px 10px 5px -3px rgba(25,64,255, 0.3);
+	box-shadow: 10px 10px 5px -3px rgba(0,125,234, 0.3);
 }
 
 
