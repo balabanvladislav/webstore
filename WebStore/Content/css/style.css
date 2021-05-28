@@ -1329,7 +1329,6 @@ header .navbar-default .navbar-header {
 
 .right-works-box {}
 
-.small-box {}
 
 .how-text-left {
 	float: left;
@@ -2532,6 +2531,12 @@ html .ui-button.ui-state-disabled:active {
 	padding: 12px;
 }
 
+.small-box-c :hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	background: #007dea;
+	-webkit-box-shadow: 0 60px 100px -5px rgba(0, 0, 0, 0.1);
+}
 .small-img-b img {
 	width: 100%;
 }
@@ -2738,7 +2743,9 @@ html .ui-button.ui-state-disabled:active {
 	margin-left: 20px;
 }
 
-.product-profile-box {}
+.product-profile-box {
+	background: #f4f9fd ;
+}
 
 .profile-pro-left {
 	margin-top: -88px;
