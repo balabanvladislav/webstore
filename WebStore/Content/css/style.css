@@ -603,6 +603,32 @@ header .navbar-default .navbar-header {
     color: #007dea;
 }
 
+<<<<<<< HEAD
+.box-img{
+	background: #051d36;
+	text-align: center;
+	padding-bottom: 30px;
+	height: 365px;
+	margin-bottom: 30px;
+	position: relative;
+	border-bottom: solid #007dea 3px;
+	transition: ease all 0.5s;
+}
+
+.box-img img {
+		max-height: 60%;
+		max-width: 80%;
+
+}
+		.box-img h4 {
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	font-size: 25px;
+	font-weight: 500;
+	transition: all 0.3s ease 0s;
+	letter-spacing: 0;
+=======
 .box-img {
     background: #051d36;
     text-align: center;
@@ -628,6 +654,7 @@ header .navbar-default .navbar-header {
     max-height: 60%;
     max-width: 90%;
     margin: auto;
+>>>>>>> cf0ed0ee25c67bde67518214beafc7d6be5a6d78
 }
 
 .box-img:hover {
@@ -2480,6 +2507,7 @@ html .ui-button.ui-state-disabled:active {
     margin-right: 8px;
 }
 
+
 .prod-btn a:hover {
     color: #1c95fd;
 }
@@ -3287,6 +3315,8 @@ html .ui-button.ui-state-disabled:active {
 .spe-a ul li {
     border-bottom: 1px solid #eeeeee;
 }
+
+
 
 .spe-a ul li .col-md-4 {
     padding-left: 0;
