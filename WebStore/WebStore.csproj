@@ -142,6 +142,14 @@
     <Content Include="Content\images\about-icon-3.png" />
     <Content Include="Content\images\bg_img1.png" />
     <Content Include="Content\images\bg_main.png" />
+    <Content Include="Content\images\Categories\BabyCart.png" />
+    <Content Include="Content\images\Categories\Ball.png" />
+    <Content Include="Content\images\Categories\Car.png" />
+    <Content Include="Content\images\Categories\Cat.png" />
+    <Content Include="Content\images\Categories\House.png" />
+    <Content Include="Content\images\Categories\Imobiliare.png" />
+    <Content Include="Content\images\Categories\Smartphone.png" />
+    <Content Include="Content\images\Categories\Vestimentation.png" />
     <Content Include="Content\images\cooming-pc.png" />
     <Content Include="Content\images\create-icon.jpg" />
     <Content Include="Content\images\creat_pro.png" />

@@ -316,15 +316,15 @@ header .navbar-default .navbar-header {
     display: inline-block;
 }
 
-.login-signup ul li a {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    color: #636363;
-    text-decoration: none;
-    font-size: 14px;
-    display: block;
-    padding: 10px 23px;
-}
+    .login-signup ul li a {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        color: #e7e7e7;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+        padding: 10px 23px;
+    }
 
 .login-signup ul li a:hover {
     color: #1e96ff;
